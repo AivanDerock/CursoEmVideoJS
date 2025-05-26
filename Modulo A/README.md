@@ -9,7 +9,7 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 - [Aula 01 - O que faz o JavaScript?](#aula-01-o-que-faz-o-javascript)
 - [Aula 02 - Evolução do JavaScript](#aula-02-evolução-do-javascript)
 - [Aula 03 - Primeiros Passos JavaScript](#aula-03-primeiros-passos-javascript)
-- Aula 04
+- [Aula 04 - Nossos Primeiros Scripts](#aula-04-nossos-primeiros-scripts)
 
 ---
 
@@ -99,7 +99,12 @@ Nessa aula, não houve anotações técnicas, pois o foco foi uma conversa intro
 - ``Google Chrome:`` Navegador utilizado para testar e executar aplicações web.
 - ``Node.js:`` Para rodar JavaScript fora do navegador.
 - ``Hyper:`` Terminal para executar comandos.
+- ``Windows:`` Sistema Operacional
 
 ---
+## [Aula 04: Nossos Primeiros Scripts](https://youtu.be/OmmJBfcMJA8?si=yBGwbwYhM_cAO7c0)
 
-> _Última atualização: 26/05/25 por Ivan Rocha_
+
+
+
+> _Última atualização: 26/05/25 por Ivan Rocha_"
