@@ -91,13 +91,15 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 ---
 ## [Aula 03: Primeiros Passos JavaScript](https://youtu.be/FdePtO5JSd0?si=iLHr5d9jnekpHan3)
 
-Nessa aula, não houve anotações, pois a aula foi mais uma conversa, orientações, duvidas, recomendações e exemplos, conversa sobre crenças militantes e instalações dos softwares para dar inicia a aula 4.
+Nessa aula, não houve anotações técnicas, pois o foco foi uma conversa introdutória, orientações gerais, esclarecimento de dúvidas, recomendações. Também foram discutidas crenças comuns sobre programação e a importância de manter uma mentalidade aberta durante o aprendizado. Além disso, foi realizado o processo de instalação dos principais softwares necessários para acompanhar o curso a partir da próxima aula.
 
-Software usado durante as aulas: 
+**Softwares utilizados durante as aulas:**
 
-- VS Code: Editor de codigo
-- Chrome: Navegador
-- Node.js: Rodar fora do navegador
-- Hyper: Terminal
+- ``VS Code:`` Editor de código-fonte.
+- ``Google Chrome:`` Navegador utilizado para testar e executar aplicações web.
+- ``Node.js:`` Para rodar JavaScript fora do navegador.
+- ``Hyper:`` Terminal para executar comandos.
+
+---
 
 > _Última atualização: 26/05/25 por Ivan Rocha_
