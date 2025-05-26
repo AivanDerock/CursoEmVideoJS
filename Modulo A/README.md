@@ -8,12 +8,12 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 ### Módulo A
 - [Aula 01 - O que faz o JavaScript?](#aula-01-o-que-faz-o-javascript)
 - [Aula 02 - Evolução do JavaScript](#aula-02-evolução-do-javascript)
-- Aula 03
+- [Aula 03 - Primeiros Passos JavaScript](#aula-03-primeiros-passos-javascript)
 - Aula 04
 
 ---
 
-## Aula 01: O que faz o JavaScript?
+## [Aula 01: O que faz o JavaScript?](https://youtu.be/Ptbk2af68e8?si=4HmA_1PSD4C_ZxyH)
 
 ### Client x Servidor
 
@@ -46,7 +46,7 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 - ``CSS3:`` Estilo e aparência — como um designer.
 - ``JavaScript:`` Interatividade e lógica — como um programador.
 ---
-## Aula 02: Evolução do JavaScript
+## [Aula 02: Evolução do JavaScript](https://youtu.be/rUTKomc2gG8?si=fSit4-B741vkNm3c)
 
 ### História da Linguagem
 
@@ -89,5 +89,15 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 > **Curiosidade:** O JavaScript é uma das linguagens mais populares do mundo, presente em praticamente todos os navegadores e plataformas modernas.
 
 ---
+## [Aula 03: Primeiros Passos JavaScript](https://youtu.be/FdePtO5JSd0?si=iLHr5d9jnekpHan3)
 
-> _Última atualização: 21/05/25 por Ivan Rocha_
+Nessa aula, não houve anotações, pois a aula foi mais uma conversa, orientações, duvidas, recomendações e exemplos, conversa sobre crenças militantes e instalações dos softwares para dar inicia a aula 4.
+
+Software usado durante as aulas: 
+
+- VS Code: Editor de codigo
+- Chrome: Navegador
+- Node.js: Rodar fora do navegador
+- Hyper: Terminal
+
+> _Última atualização: 26/05/25 por Ivan Rocha_
