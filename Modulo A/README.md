@@ -3,6 +3,18 @@
 Bem-vindo(a) às anotações do módulo A de JavaScript do **Curso em Vídeo**!  
 Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 
+### Resumo Geral
+
+Este README reúne minhas anotações pessoais do Módulo A do curso de JavaScript do ``Curso em Vídeo``.  
+Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação.
+
+- ``Aula 01:`` Introdução ao JavaScript, explicação sobre client e servidor, funcionamento da comunicação via navegador e apresentação das três tecnologias fundamentais do front-end: HTML, CSS e JavaScript.
+- ``Aula 02:`` Linha do tempo da evolução do JavaScript, desde a ARPANET até o surgimento do Node.js, incluindo a padronização ECMAScript e os principais avanços de cada versão.
+- ``Aula 03:`` Aula mais voltada para orientações iniciais, esclarecimento de dúvidas, recomendações e instalação dos softwares necessários (VS Code, Chrome, Node.js, Hyper).
+- ``Aula 04:`` Primeiros passos práticos com HTML, CSS e JavaScript. Mostra como estruturar um projeto, criar arquivos, linkar CSS e JS, e traz exemplos de código para cada tecnologia.
+
+> Lembrete: O título de cada aula contém um link direto para o respectivo vídeo no YouTube do Curso em Vídeo.
+
 ## 📚 Conteúdo das Aulas
 
 ### Módulo A
@@ -104,7 +116,89 @@ Nessa aula, não houve anotações técnicas, pois o foco foi uma conversa intro
 ---
 ## [Aula 04: Nossos Primeiros Scripts](https://youtu.be/OmmJBfcMJA8?si=yBGwbwYhM_cAO7c0)
 
+Nesta aula, demos nossos primeiros passos práticos com HTML, CSS e JavaScript.
 
+### Organização do Projeto
 
+- Iniciamos criando e organizando as pastas do projeto.
+- Criamos o arquivo principal chamado `ex001.html`.
 
-> _Última atualização: 26/05/25 por Ivan Rocha_"
+### Estrutura Básica do HTML
+
+> 💡 **Dica:** Para gerar rapidamente a estrutura básica do HTML no VS Code, basta digitar `!` e pressionar Enter. Isso cria automaticamente o seguinte template:
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex001</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+
+Durante a aula, foram explicadas as principais tags do HTML, como `<head>`, `<body>`, `<h1>`, `<h2>`, e como organizar o conteúdo da página. Também aprendemos a **linkar** arquivos CSS e JavaScript externos para adicionar estilo e interatividade.
+
+### Exemplo de HTML com CSS e JS
+
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ex001</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Meu primeiro script</h1>
+  <h2>Olá, Mundo!</h2>
+  <script src="index.js"></script>
+</body>
+</html>
+```
+
+### Exemplo de CSS (index.css)
+
+```css
+body {
+  background-color: #00aeff;
+  color: wheat;
+  font: normal 20px/1.5em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+```
+
+### Exemplo de JavaScript (index.js)
+
+```js
+// Alerta no navegador
+alert('Olá, mundo!');
+
+// Mensagem no console
+console.log('Olá, mundo!');
+
+// Interação simples com o usuário
+let user = confirm('Seu nome é Ivan?');
+if (user) {
+  alert('Olá, Ivan!');
+} else {
+  alert('Olá, visitante!');
+}
+```
+
+> 💡 **Dica:** Para visualizar o resultado do seu HTML em tempo real, utilize a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code.
+
+---
+
+## Minhas Considerações Finais
+
+Essas anotações são um resumo do que achei mais importante e interessante no Módulo A do curso de JavaScript do Curso em Vídeo.  
+Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fixar o conteúdo.
+
+Bora continuar estudando e evoluindo! 🚀
+
+> _Última atualização: 26/05/25 por Ivan Rocha_
