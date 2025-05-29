@@ -8,8 +8,8 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 Este README reúne minhas anotações pessoais do Módulo B do curso de JavaScript do ``Curso em Vídeo``.  
 Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação.
 
-- ``Aula 05:`` 
-- ``Aula 06:`` 
+- ``Aula 05:`` Tipos de dados e Variáveis 
+- ``Aula 06:`` Tratamento de Dados
 - ``Aula 07:`` 
 - ``Aula 08:``
 
@@ -20,7 +20,7 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 ### Módulo B
 
 - [Aula 05 - Tipos de dados e Variáveis](#aula-05-tipos-de-dados-e-variáveis)
-- [Aula 06]()
+- [Aula 06 - Tratamento de Dados](#aula-06-tratamento-de-dados)
 - [Aula 07]()
 - [Aula 08]()
 
@@ -28,7 +28,7 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 ## [Aula 05: Tipos de dados e Variáveis](https://youtu.be/Vbabsye7mWo?si=C-3BIUgboDCwsnHf)
 
-Na aula anterior ([Aula 04](../Modulo%20A/README.md)), tivemos nosso primeiro contato com comandos como `alert()`, `confirm()` e `prompt()`. Porém, ainda não aprendemos como capturar e utilizar os valores retornados por esses comandos. Se não tratarmos esses dados, eles se perdem e não podem ser usados no restante do código.
+Na aula anterior ([Aula 04](../Modulo%20A/README.md#aula-04-nossos-primeiros-scripts)), tivemos nosso primeiro contato com comandos como `alert()`, `confirm()` e `prompt()`. Porém, ainda não aprendemos como capturar e utilizar os valores retornados por esses comandos. Se não tratarmos esses dados, eles se perdem e não podem ser usados no restante do código.
 
 ### Comentários em JavaScript
 
@@ -128,8 +128,13 @@ let carro = "Ferrari";
 console.log(nome + ' possui uma ' + carro); // Ivan possui uma Ferrari
 ```
 
+---
+
+## [Aula 06: Tratamento de Dados](https://youtu.be/OJgu_KCCUSY?si=B0SqZ5TS_7ZSGkCI)
+
 
 ---
+
 
 ## Minhas Considerações Finais
 
