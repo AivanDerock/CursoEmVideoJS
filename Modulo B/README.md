@@ -21,8 +21,8 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 - [Aula 05 - Tipos de dados e Variáveis](#aula-05-tipos-de-dados-e-variáveis)
 - [Aula 06 - Tratamento de Dados](#aula-06-tratamento-de-dados)
-- [Aula 07]()
-- [Aula 08]()
+- [Aula 07 - I Operadores](#aula-07-i-operadores)
+- [Aula 08 - II Operadores - Em breve]()
 
 ---
 
@@ -262,6 +262,139 @@ console.log(n1.toLocaleString('en-US', { style: 'currency', currency: 'USD' }));
 
 ---
 
+## [Aula 07: I Operadores](https://youtu.be/hZG9ODUdxHo?si=EiXGAdlPv8wZ8Ej-)
+
+Nesta aula, estudamos os principais operadores do JavaScript. Existem várias famílias de operadores, mas aqui focamos nos **operadores aritméticos** e de **atribuição**.
+
+---
+
+### Principais Famílias de Operadores
+
+- **Aritméticos**: usados para cálculos matemáticos.
+- **Atribuição**: usados para atribuir valores a variáveis.
+- (Outros: relacionais, lógicos, ternários — serão vistos depois.)
+
+---
+
+### Operadores Aritméticos
+
+| Operador | Exemplo      | Resultado | Descrição                |
+|----------|--------------|-----------|--------------------------|
+| `+`      | 5 + 2        | 7         | Soma                     |
+| `-`      | 5 - 2        | 3         | Subtração                |
+| `*`      | 5 * 2        | 10        | Multiplicação            |
+| `/`      | 5 / 2        | 2.5       | Divisão real             |
+| `%`      | 5 % 2        | 1         | Resto da divisão inteira |
+| `**`     | 5 ** 2       | 25        | Potenciação              |
+
+> São chamados **binários** porque precisam de dois operandos.
+
+---
+
+### Ordem de Precedência dos Operadores
+
+Assim como na matemática, existe uma ordem para resolver as operações:
+
+1. Parênteses `()`
+2. Potenciação `**`
+3. Multiplicação, Divisão e Resto `* / %` (da esquerda para a direita)
+4. Soma e Subtração `+ -`
+
+**Exemplo:**
+```js
+5 + 3 / 2 // Resultado: 6.5 (primeiro divide, depois soma)
+(5 + 3) / 2 // Resultado: 4 (primeiro soma, depois divide)
+```
+
+---
+
+### Exemplos Práticos
+
+```js
+5 + 2 // 7
+9 % 2 // 1
+9 / 2 // 4.5
+(5 + 3) / 2 // 4
+```
+
+---
+
+### Operadores de Atribuição
+
+Usados para atribuir valores a variáveis:
+
+```js
+var a = 5 + 3;      // a = 8
+var b = a % 5;      // b = 3
+var c = 5 * b ** 2; // c = 45
+var d = 10 - a / 2; // d = 6
+var e = 6 * 2 / d;  // e = 2
+var f = b % e + 4 / e; // f = 3
+```
+
+---
+
+### Auto-Atribuição
+
+Permite atualizar o valor de uma variável com base nela mesma:
+
+```js
+var n = 3;
+n = n + 4; // n = 7
+n = n - 5; // n = 2
+n = n * 4; // n = 8
+n = n / 2; // n = 4
+n = n ** 2; // n = 16
+n = n % 5; // n = 1
+```
+
+---
+
+### Simplificação de Auto-Atribuição
+
+Podemos simplificar as operações acima usando operadores compostos:
+
+```js
+n += 4; // n = n + 4
+n -= 5; // n = n - 5
+n *= 4; // n = n * 4
+n /= 2; // n = n / 2
+n **= 2; // n = n ** 2
+n %= 5; // n = n % 5
+```
+
+Essas simplificações também existem em outras linguagens como C, Java, Python e PHP.
+
+---
+
+### Operadores de Incremento e Decremento
+
+Servem para somar ou subtrair 1 ao valor da variável:
+
+```js
+var x = 5;
+x++; // x = x + 1 (incremento)
+x--; // x = x - 1 (decremento)
+```
+
+Também podem ser usados antes ou depois da variável:
+
+- `x++` ou `x--` (pós-incremento/decremento): o valor é alterado após a linha ser executada.
+- `++x` ou `--x` (pré-incremento/decremento): o valor é alterado antes da linha ser executada.
+
+**Exemplo no Node.js:**
+```js
+var n = 10;
+n++; // retorna 10, mas n agora é 11
+n;   // retorna 11
+
+++n; // retorna 12 imediatamente
+n;   // retorna 12
+```
+
+Na maioria dos casos básicos, não faz diferença usar antes ou depois. Em situações mais avançadas, a ordem pode importar.
+
+---
 
 ## Minhas Considerações Finais
 
