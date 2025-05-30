@@ -10,8 +10,8 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 - ``Aula 05:`` Tipos de dados e Variáveis 
 - ``Aula 06:`` Tratamento de Dados
-- ``Aula 07:`` 
-- ``Aula 08:``
+- ``Aula 07:`` I Operadores
+- ``Aula 08:`` II Operadores
 
 > Lembrete: O título de cada aula contém um link direto para o respectivo vídeo no YouTube do Curso em Vídeo.
 
