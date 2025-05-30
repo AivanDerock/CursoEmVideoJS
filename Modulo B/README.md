@@ -132,6 +132,133 @@ console.log(nome + ' possui uma ' + carro); // Ivan possui uma Ferrari
 
 ## [Aula 06: Tratamento de Dados](https://youtu.be/OJgu_KCCUSY?si=B0SqZ5TS_7ZSGkCI)
 
+Nesta aula, o foco foi o tratamento dos dois principais tipos primitivos do JavaScript: **number** e **string**. Também aprendemos como capturar, armazenar e manipular os dados recebidos pelo `prompt()`.
+
+---
+
+### Capturando e Utilizando Dados do Prompt
+
+Antes, ao usar comandos como `alert()`, `confirm()` e `prompt()`, não sabíamos como armazenar as respostas. Agora, com variáveis, podemos guardar e manipular esses valores:
+
+```js
+let name = prompt("Qual é seu nome?");
+alert(`Olá, ${name}! Seja bem-vindo(a)!`);
+```
+
+Também é possível concatenar textos usando o operador `+`:
+
+```js
+alert("Olá, " + name + "! Seja bem-vindo(a)!");
+```
+
+---
+
+### Conversão de Tipos e Soma de Valores
+
+Por padrão, os valores recebidos pelo `prompt()` são **strings**. Se tentarmos somar dois números digitados pelo usuário sem converter, o resultado será uma concatenação de texto, não uma soma numérica:
+
+```js
+let n1 = prompt("Digite o primeiro número:");
+let n2 = prompt("Digite outro número:");
+let soma = n1 + n2; // Aqui ocorre concatenação, não soma
+```
+
+Para somar corretamente, converta as strings para números:
+
+```js
+// Usando parseFloat para números com casas decimais
+let n1 = parseFloat(prompt("Digite o primeiro número:"));
+let n2 = parseFloat(prompt("Digite outro número:"));
+let soma = n1 + n2;
+alert(`A soma de ${n1} + ${n2} é igual a ${soma}`);
+```
+
+```js
+// Usando Number para conversão automática
+let n1 = Number(prompt("Digite o primeiro número:"));
+let n2 = Number(prompt("Digite outro número:"));
+let soma = n1 + n2;
+alert(`A soma de ${n1} + ${n2} é igual a ${soma}`);
+```
+
+> **Atenção:** `parseInt` converte apenas para inteiros, enquanto `parseFloat` aceita números com ponto decimal.
+
+---
+
+### Convertendo entre String e Number
+
+- Para converter de **string** para **number**: `Number(n)`, `parseInt(n)`, `parseFloat(n)`
+- Para converter de **number** para **string**: `String(n)` ou `n.toString()`
+
+Exemplo:
+
+```js
+let n1 = String(prompt("Digite o primeiro número:"));
+let n2 = prompt("Digite outro número:").toString();
+let resultado = n1 + n2; // Aqui ocorre concatenação, não soma
+```
+
+---
+
+### Template Strings
+
+Para facilitar a formatação de textos, usamos **template strings** (entre crases `` ` ``):
+
+```js
+let nome = "Ivan";
+let sobrenome = "Rocha";
+let idade = 30;
+let cidade = "São Paulo";
+console.log(`Meu nome é ${nome} ${sobrenome}, tenho ${idade} anos e moro em ${cidade}.`);
+```
+
+- `${}` é chamado de **placeholder** e serve para inserir variáveis dentro da string.
+
+---
+
+### Métodos Úteis para Strings
+
+- `.length` — Conta quantos caracteres a string possui
+- `.toUpperCase()` — Transforma em MAIÚSCULO
+- `.toLowerCase()` — Transforma em minúsculo
+
+Exemplo prático:
+
+```js
+var name = prompt("Qual é seu nome?");
+document.write(`Olá, ${name} seja bem-vindo(a)!<br>`);
+document.write(`Seu nome tem ${name.length} caracteres<br>`);
+document.write(`Seu nome em maiúsculas: ${name.toUpperCase()}<br>`);
+document.write(`Seu nome em minúsculas: ${name.toLowerCase()}<br>`);
+```
+
+> Aqui usamos `document.write` para exibir as informações diretamente na página, ao invés de pop-ups.  
+> Lembrete: O `<br>` é uma tag HTML usada para criar uma quebra de linha no texto exibido na página.   
+> Quando usamos `document.write("texto<br>")`, o conteúdo após o `<br>` aparecerá na linha de baixo.
+
+---
+
+### Formatação de Números
+
+- `.toFixed(2)` — Define o número de casas decimais (ex: `1343.5.toFixed(2)` resulta em `1343.50`)
+- `.replace('.', ',')` — Troca o ponto por vírgula (útil para formatação brasileira)
+- `.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })` — Formata como moeda
+
+Exemplos:
+
+```js
+let n1 = 1343.5;
+console.log(n1.toFixed(2)); // "1343.50"
+console.log(n1.toFixed(2).replace('.', ',')); // "1343,50"
+console.log(n1.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })); // "R$ 1.343,50"
+console.log(n1.toLocaleString('en-US', { style: 'currency', currency: 'USD' })); // "$1,343.50"
+```
+
+### Links para Exercícios Aula 6
+
+- [ex001](./Exercicios/ex001/)
+- [ex002](./Exercicios/ex002/)
+- [ex003](./Exercicios/ex003/)
 
 ---
 
