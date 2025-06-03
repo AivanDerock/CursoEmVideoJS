@@ -22,7 +22,7 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 - [Aula 05 - Tipos de dados e Variáveis](#aula-05-tipos-de-dados-e-variáveis)
 - [Aula 06 - Tratamento de Dados](#aula-06-tratamento-de-dados)
 - [Aula 07 - I Operadores](#aula-07-i-operadores)
-- [Aula 08 - II Operadores - Em breve]()
+- [Aula 08 - II Operadores](#aula-08-ii-operadores)
 
 ---
 
@@ -396,6 +396,130 @@ Na maioria dos casos básicos, não faz diferença usar antes ou depois. Em situ
 
 ---
 
+## [Aula 08: II Operadores](https://youtu.be/BP63NhITvao?si=jch_W3Fe5D5lg3md)
+
+Nesta aula, demos continuidade ao estudo dos operadores, focando nos **operadores relacionais**, **lógicos** e **ternários**.
+
+---
+
+### Operadores Relacionais
+
+São usados para comparar valores, retornando sempre um resultado booleano (`true` ou `false`). Os principais são:
+
+| Operador | Significado         | Exemplo      | Resultado |
+|----------|--------------------|--------------|-----------|
+| `>`      | Maior              | 5 > 2        | true      |
+| `<`      | Menor              | 7 < 4        | false     |
+| `>=`     | Maior ou igual     | 8 >= 8       | true      |
+| `<=`     | Menor ou igual     | 9 <= 7       | false     |
+| `==`     | Igual (valor)      | 5 == 5       | true      |
+| `!=`     | Diferente (valor)  | 4 != 4       | false     |
+
+> **Dica:** Para lembrar qual é o maior ou menor, imagine os sinais `<` e `>` como setas apontando para o menor ou maior valor.
+
+- O resultado de uma expressão relacional é sempre booleano.
+- Podemos usar variáveis e operadores aritméticos junto com os relacionais, mas a ordem de avaliação é: **primeiro os aritméticos, depois os relacionais**.
+
+#### Operadores de Identidade
+
+- `==` compara apenas o valor (não o tipo).
+  - `5 == '5'` → `true`
+- `===` compara valor **e tipo** (identidade restrita).
+  - `5 === '5'` → `false`
+  - `5 === 5` → `true`
+- `!=` compara se os valores são diferentes.
+- `!==` compara se valor **ou tipo** são diferentes.
+  - `5 !== "5"` → `true`
+
+---
+
+### Operadores Lógicos
+
+Permitem combinar expressões booleanas:
+
+| Operador | Nome           | Exemplo             | Resultado |
+|----------|----------------|---------------------|-----------|
+| `!`      | Negação        | `!true`             | false     |
+| `&&`     | Conjunção (E)  | `true && false`     | false     |
+| `\|\|`   | Disjunção (OU) | `true \|\| false`     | true      |
+
+- **Negação (`!`)**: Inverte o valor lógico (unário).
+  - `!true` → `false`
+  - `!false` → `true`
+- **Conjunção (`&&`)**: Só retorna `true` se ambos forem verdadeiros.
+  - `true && true` → `true`
+  - `true && false` → `false`
+- **Disjunção (`||`)**: Retorna `true` se pelo menos um for verdadeiro.
+  - `true || false` → `true`
+  - `false || false` → `false`
+
+> **Resumo:**  
+> - `!` inverte o valor.  
+> - `&&` só é `true` se ambos forem `true`.  
+> - `||` só é `false` se ambos forem `false`.
+
+---
+
+### Ordem de Precedência dos Operadores
+
+Quando usados juntos, a ordem de avaliação é:
+
+1. Parênteses `()`
+2. Operadores aritméticos (`**`, `*`, `/`, `%`, `+`, `-`)
+3. Operadores relacionais (`>`, `<`, `>=`, `<=`, `==`, `!=`, `===`, `!==`)
+4. Negação lógica `!`
+5. Conjunção lógica `&&`
+6. Disjunção lógica `||`
+
+**Exemplo prático:**
+
+```js
+var a = 5;
+var b = 8;
+
+a > b && b % 2 == 0 // false
+```
+- Primeiro: `b % 2`
+- Depois: resultado de `b % 2 == 0`
+- Depois: resultado de `a > b`
+- Por fim: resultado de um lado `&&` resultado do outro
+
+---
+
+### Operador Ternário
+
+O operador ternário é uma forma curta de escrever uma condição. Ele possui três partes:
+
+```js
+condição ? valor_se_verdadeiro : valor_se_falso
+```
+
+**Exemplo:**
+
+```js
+let media = 5.0;
+let resultado = media >= 7.0 ? "Aprovado" : "Reprovado"; // "Reprovado"
+
+media += 3;
+resultado = media >= 7.0 ? "Aprovado" : "Reprovado"; // "Aprovado"
+```
+
+- O operador ternário sempre é avaliado por último em uma expressão.
+
+---
+
+### Resumo
+
+- **Relacionais:** Comparam valores e retornam booleanos.
+- **Identidade:** `===` e `!==` comparam valor e tipo.
+- **Lógicos:** Permitem combinar condições.
+- **Ternário:** Atalho para if/else simples.
+
+> **Dica:** Em expressões com vários operadores, a ordem é: aritméticos → relacionais → lógicos (`!`, `&&`, `||`) → ternário.
+
+---
+
+
 ## Minhas Considerações Finais
 
 Essas anotações são um resumo do que achei mais importante e interessante no Módulo A do curso de JavaScript do Curso em Vídeo.  
@@ -403,4 +527,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 28/05/25 por Ivan Rocha_
+> _Última atualização: 03/06/25 por Ivan Rocha_

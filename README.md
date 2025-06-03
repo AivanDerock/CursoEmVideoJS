@@ -32,7 +32,7 @@ O **Curso de JavaScript do Curso em Vídeo** aborda desde os conceitos básicos 
 - [Aula 05 – Tipos de Dados e Variáveis](./Modulo%20B/README.md#aula-05-tipos-de-dados-e-variáveis)
 - [Aula 06 - Tratamento de Dados](./Modulo%20B/README.md#aula-06-tratamento-de-dados)
 - [Aula 07 - I Operadores](./Modulo%20B/README.md#aula-07-i-operadores)
-- [Aula 08 - II Operadores - Em breve](./Modulo%20B/README.md)
+- [Aula 08 - II Operadores](./Modulo%20B/README.md#aula-08-ii-operadores)
 
 ---
 
