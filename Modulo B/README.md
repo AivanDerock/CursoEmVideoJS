@@ -5,13 +5,13 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 
 ### Resumo Geral
 
-Este README reúne minhas anotações pessoais do Módulo B do curso de JavaScript do ``Curso em Vídeo``.  
-Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação.
+Este README reúne minhas anotações pessoais do Módulo B do curso de JavaScript do **Curso em Vídeo**.  
+Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações úteis para revisão.
 
-- ``Aula 05:`` Tipos de dados e Variáveis 
-- ``Aula 06:`` Tratamento de Dados
-- ``Aula 07:`` I Operadores
-- ``Aula 08:`` II Operadores
+- **Aula 05:** Introdução aos tipos de dados primitivos (number, string, boolean, etc.), declaração de variáveis (`var`, `let`, `const`), boas práticas de nomes e como identificar tipos com `typeof`.
+- **Aula 06:** Como capturar e tratar dados do usuário com `prompt()`, conversão entre string e number, uso de template strings, métodos úteis de string e formatação de números.
+- **Aula 07:** Estudo dos operadores aritméticos e de atribuição, ordem de precedência, auto-atribuição, operadores de incremento/decremento e suas simplificações.
+- **Aula 08:** Operadores relacionais, operadores de identidade (`==`, `===`, `!=`, `!==`), operadores lógicos (`!`, `&&`, `||`), ordem de precedência lógica e uso do operador ternário para condições simples.
 
 > Lembrete: O título de cada aula contém um link direto para o respectivo vídeo no YouTube do Curso em Vídeo.
 
@@ -522,7 +522,7 @@ resultado = media >= 7.0 ? "Aprovado" : "Reprovado"; // "Aprovado"
 
 ## Minhas Considerações Finais
 
-Essas anotações são um resumo do que achei mais importante e interessante no Módulo A do curso de JavaScript do Curso em Vídeo.  
+Essas anotações são um resumo do que achei mais importante e interessante no Módulo B do curso de JavaScript do Curso em Vídeo.  
 Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fixar o conteúdo.
 
 Bora continuar estudando e evoluindo! 🚀

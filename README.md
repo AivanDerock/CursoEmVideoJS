@@ -34,6 +34,10 @@ O **Curso de JavaScript do Curso em Vídeo** aborda desde os conceitos básicos 
 - [Aula 07 - I Operadores](./Modulo%20B/README.md#aula-07-i-operadores)
 - [Aula 08 - II Operadores](./Modulo%20B/README.md#aula-08-ii-operadores)
 
+### Módulo C
+
+- [Aula 09 - Em breve]()
+
 ---
 
 ## 💡 Referências
