@@ -36,7 +36,8 @@ O **Curso de JavaScript do Curso em Vídeo** aborda desde os conceitos básicos 
 
 ### Módulo C
 
-- [Aula 09 - Em breve]()
+- [Aula 09 - Entendendo o DOM](./Modulo%20C/README.md#aula-09---entendendo-o-dom)
+- [Aula 10 - Em breve]()
 
 ---
 
