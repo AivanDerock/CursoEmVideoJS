@@ -5,11 +5,11 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 
 ### Resumo Geral
 
-Este README reúne minhas anotações pessoais do Módulo C do curso de JavaScript do ``Curso em Vídeo``.  
-Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação.
+Este README reúne minhas anotações pessoais do Módulo C do curso de JavaScript do Curso em Vídeo.
+Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação
 
-- ``Aula 09:`` - Entendendo o DOM
-- ``Aula 10:`` - Em breve
+- ``Aula 09:`` Introdução ao DOM (Document Object Model), explicando como acessar, manipular e estilizar elementos HTML usando JavaScript no navegador.
+- ``Aula 10:`` Eventos DOM — como tornar a página interativa respondendo a ações do usuário, como cliques e movimentos do mouse, utilizando funções e manipuladores de eventos.
 
 > Lembrete: O título de cada aula contém um link direto para o respectivo vídeo no YouTube do Curso em Vídeo.
 
@@ -18,7 +18,7 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 ### Módulo C
 
 - [Aula 09 - Entendendo o DOM](#aula-09---entendendo-o-dom)
-- [Aula 10 - Em breve]()
+- [Aula 10 - Eventos DOM](#aula-10---eventos-dom)
 
 ---
 
@@ -179,6 +179,158 @@ c.style.background = 'white';
 
 ---
 
+## [Aula 10 - Eventos DOM](https://youtu.be/wWnBB-mZIvY?si=_3ARAITBu0DWs8DK)
+
+Nesta aula, aprofundamos o uso de **eventos** no JavaScript, que são ações ou ocorrências que acontecem nos elementos da página (como clicar, passar o mouse, etc.).
+
+---
+
+### O que são eventos?
+
+Eventos são tudo o que pode acontecer com um elemento da página: clique, passar o mouse, pressionar uma tecla, etc.  
+Os eventos mais comuns de mouse são:
+
+- `mouseenter`: quando o mouse entra na área do elemento
+- `mousemove`: quando o mouse se move dentro do elemento
+- `mousedown`: quando o botão do mouse é pressionado
+- `mouseup`: quando o botão do mouse é solto
+- `click`: quando o elemento é clicado
+- `mouseout`/`mouseleave`: quando o mouse sai do elemento
+
+> Existem muitos outros eventos. Consulte a [documentação da Mozilla](https://developer.mozilla.org/pt-BR/docs/Web/Events) para ver todos.
+
+---
+
+### Diferença entre `mouseout` e `mouseleave`
+
+- `mouseleave`: Dispara quando o mouse sai totalmente do elemento (não dispara ao entrar em um filho).
+- `mouseout`: Dispara quando o mouse sai do elemento ou de qualquer filho.
+
+Na maioria dos casos, `mouseleave` é mais previsível quando há elementos filhos.
+
+---
+
+### Como tratar eventos em JavaScript
+
+Para que um código seja executado quando um evento ocorre, usamos **funções**.  
+Funções são blocos de código que só rodam quando chamadas por um evento.
+
+Exemplo de função:
+```js
+function acao() {
+  // bloco de código
+}
+```
+
+Podemos configurar eventos de duas formas:
+
+#### 1. No HTML
+
+```html
+<div id="area" onclick="clicar()" onmouseenter="entrar()">
+  <p>interaja..</p>
+</div>
+```
+
+#### 2. No JavaScript (recomendado)
+
+```js
+let a = document.getElementById("area");
+a.addEventListener("click", clicar);
+a.addEventListener("mouseenter", entrar);
+a.addEventListener("mouseleave", sair);
+```
+
+---
+
+### Exemplo prático de manipulação de eventos
+
+```js
+let a = document.getElementById("area");
+
+function clicar() {
+  a.innerText = "Clicou!";
+  a.style.background = "lightblue";
+  a.style.color = "black";
+}
+
+function entrar() {
+  a.innerText = "Entrou!";
+  a.style.background = "lightgreen";
+  a.style.color = "black";
+}
+
+function sair() {
+  a.innerText = "Saiu!";
+  a.style.background = "lightcoral";
+  a.style.color = "black";
+}
+```
+
+---
+
+### Dica: Escopo de variáveis
+
+Se você declarar a variável `a` fora das funções, ela pode ser usada em todas elas.  
+Se declarar dentro, só estará disponível naquela função.
+
+---
+
+### Debugando eventos
+
+Para encontrar erros, use o **DevTools** do navegador (F12).  
+Erros de JavaScript aparecem com uma bolinha vermelha e indicam o arquivo, linha e coluna do erro.
+
+---
+
+### Exemplo de interatividade: Somando números
+
+Podemos usar eventos para criar interações, como somar dois números digitados pelo usuário:
+
+**HTML:**
+```html
+<body>
+  <h1>Somando:</h1>
+  <input type="number" name="textn1" id="textn1" placeholder="Digite um número" /> +
+  <input type="number" name="textn2" id="textn2" placeholder="Digite outro número" />
+  <input type="button" value="Somar" onclick="somar()" />
+  <p id="res"></p>
+  <script src="./index.js"></script>
+</body>
+```
+
+**JavaScript:**
+```js
+function somar() {
+  let n1 = document.getElementById("textn1");
+  let n2 = document.getElementById("textn2");
+  let res = document.getElementById("res");
+
+  let num1 = Number(n1.value);
+  let num2 = Number(n2.value);
+
+  res.innerHTML = `A soma de ${num1} e ${num2} é igual a ${num1 + num2}.`;
+}
+```
+
+---
+
+### Resumo
+
+- Eventos permitem tornar a página interativa.
+- Funções são executadas quando eventos acontecem.
+- Prefira adicionar eventos pelo JavaScript usando `addEventListener`.
+- Use o DevTools para depurar e encontrar erros.
+
+---
+
+### Links para Exercícios Aula 10
+
+- [ex002](./Exercicios/ex002)
+- [ex003](./Exercicios/ex003)
+
+---
+
 ## Minhas Considerações Finais
 
 Essas anotações são um resumo do que achei mais importante e interessante no Módulo C do curso de JavaScript do Curso em Vídeo.  
@@ -186,4 +338,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 04/06/25 por Ivan Rocha_
+> _Última atualização: 06/06/25 por Ivan Rocha_
