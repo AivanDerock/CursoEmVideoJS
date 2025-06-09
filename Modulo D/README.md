@@ -8,8 +8,8 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 Este README reúne minhas anotações pessoais do Módulo D do curso de JavaScript do ``Curso em Vídeo``.  
 Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação.
 
-- ``Aula 11:`` - Em breve
-- ``Aula 12:`` - Em breve
+- ``Aula 11:`` - Condições I
+- ``Aula 12:`` - Condições II
 - ``Exercicio 01:`` - Em breve
 - ``Exercicio 02:`` - Em breve
 - ``Exercicio 03:`` - Em breve
@@ -20,15 +20,15 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 ### Módulo D
 
-- [Aula 11 - Em breve]()
-- [Aula 12 - Em breve]()
+- [Aula 11 - Condições I](#aula-11---condições-i)
+- [Aula 12 - Condições II]()
 - [Exercicio 01 - Em breve]()
 - [Exercicio 02 - Em breve]()
 - [Exercicio 03 - Em breve]()
 
 ---
 
-## [Aula 11 - Em breve]()
+## [Aula 11 - Condições I](https://youtu.be/cOdG4eACN2A?si=strWAryZ8l1iAD75)
 
 ---
 
@@ -39,4 +39,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 03/06/25 por Ivan Rocha_
+> _Última atualização: 09/06/25 por Ivan Rocha_

@@ -41,7 +41,7 @@ O **Curso de JavaScript do Curso em Vídeo** aborda desde os conceitos básicos 
 
 ### Módulo D
 
-- [Aula 11 - Em breve]()
+- [Aula 11 - Condições I](./Modulo%20D/README.md#aula-11---condições-i)
 - [Aula 12 - Em breve]()
 - [Exercicio 01 - Em breve]()
 - [Exercicio 02 - Em breve]()
