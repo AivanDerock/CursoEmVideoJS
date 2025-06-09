@@ -21,7 +21,7 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 ### Módulo D
 
 - [Aula 11 - Condições I](#aula-11---condições-i)
-- [Aula 12 - Condições II]()
+- [Aula 12 - Condições II](#aula-12---condições-ii)
 - [Exercicio 01 - Em breve]()
 - [Exercicio 02 - Em breve]()
 - [Exercicio 03 - Em breve]()
@@ -186,6 +186,8 @@ function verificar() {
 - [ex004 - Desafio](./Exercicios/ex004)
 
 ---
+
+## [Aula 12 - Condições II]()
 
 ## Minhas Considerações Finais
 
