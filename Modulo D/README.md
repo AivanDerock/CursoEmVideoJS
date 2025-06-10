@@ -187,7 +187,145 @@ function verificar() {
 
 ---
 
-## [Aula 12 - Condições II]()
+## [Aula 12 - Condições II](https://youtu.be/EEStcIe8rAM?si=hpBCf5V481EgJFRn)
+
+Na aula anterior, vimos as condições simples e compostas, onde o código seguia por um caminho ou outro, dependendo se a condição era verdadeira ou falsa.  
+Agora, vamos além: nem sempre existem só duas opções! Nesta aula, aprendemos sobre **condições aninhadas** e **condições múltiplas**.
+
+---
+
+### Condições Aninhadas
+
+Uma condição aninhada é quando colocamos um `if` dentro de outro `else`. Assim, podemos criar vários caminhos possíveis para o fluxo do programa.
+
+**Exemplo:**
+```js
+if (condição1) {
+  // bloco 1
+} else {
+  if (condição2) {
+    // bloco 2
+  } else {
+    // bloco 3
+  }
+}
+```
+Ou, de forma simplificada:
+```js
+if (condição1) {
+  // bloco 1
+} else if (condição2) {
+  // bloco 2
+} else {
+  // bloco 3
+}
+```
+> O `else if` é uma forma mais limpa de escrever condições aninhadas.
+
+---
+
+### Exemplo prático: Situação do voto
+
+```js
+let idade = 90
+
+if (idade < 16) {
+  console.log('Não vota')
+} else if (idade < 18 || idade >= 70) {
+  console.log('Voto opcional')
+} else {
+  console.log('Voto obrigatório')
+}
+```
+Neste exemplo, temos três possibilidades de resposta, dependendo da idade.
+
+---
+
+### Exemplo prático: Saudação por horário
+
+```js
+let horas = 13
+
+console.log(`Agora são exatamente ${horas} horas`)
+
+if (horas < 6) {
+  console.log("Boa madrugada!!")
+} else if (horas <= 12) {
+  console.log("Bom dia!!")
+} else if (horas <= 18) {
+  console.log("Boa tarde!!")
+} else if (horas <= 24) {
+  console.log("Boa noite!!")
+} else {
+  console.log("Hora inválida!!")
+}
+```
+Você pode obter a hora atual do sistema usando:
+```js
+let horas = new Date().getHours();
+```
+
+---
+
+### Condição Múltipla: `switch`
+
+Quando precisamos testar **valores exatos** (e não intervalos), podemos usar o `switch`.  
+O `switch` é útil para situações pontuais, como dias da semana, meses, opções de menu, etc.
+
+**Exemplo:**
+```js
+let diaSem = new Date().getDay();
+
+switch (diaSem) {
+  case 0:
+    console.log('Domingo');
+    break;
+  case 1:
+    console.log('Segunda-feira');
+    break;
+  case 2:
+    console.log('Terça-feira');
+    break;
+  case 3:
+    console.log('Quarta-feira');
+    break;
+  case 4:
+    console.log('Quinta-feira');
+    break;
+  case 5:
+    console.log('Sexta-feira');
+    break;
+  case 6:
+    console.log('Sábado');
+    break;
+  default:
+    console.log('Dia inválido');
+    break;
+}
+```
+> **Atenção:** Sempre use `break` ao final de cada `case` para evitar que o código continue executando os próximos blocos.
+
+- O método `getDay()` retorna o dia da semana (0 = domingo, 1 = segunda, ..., 6 = sábado).
+- O `default` funciona como o `else` do `if`: só executa se nenhum dos casos anteriores for verdadeiro.
+
+---
+
+### Resumo
+
+- Condições aninhadas permitem criar vários caminhos no código.
+- O `else if` deixa o código mais limpo do que vários `if` dentro de `else`.
+- O `switch` é ideal para testar valores exatos, não intervalos.
+- Sempre use `{}` para delimitar blocos de código em condições.
+
+---
+
+### Links para Exercícios Aula 12
+
+- [ex005](./Exercicios/ex005)
+- [ex006](./Exercicios/ex006)
+- [ex007](./Exercicios/ex007)
+
+---
 
 ## Minhas Considerações Finais
 
@@ -196,4 +334,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 09/06/25 por Ivan Rocha_
+> _Última atualização: 10/06/25 por Ivan Rocha_
