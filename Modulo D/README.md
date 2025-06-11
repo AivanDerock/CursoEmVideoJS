@@ -10,9 +10,9 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 - ``Aula 11:`` - Condições I
 - ``Aula 12:`` - Condições II
-- ``Aula 13 - Exercicio 01:`` - Em breve
-- ``Aula 14 - Exercicio 02:`` - Em breve
-- ``Aula 15 - Exercicio 03:`` - Em breve
+- ``Aula 13:`` - Exercicio 01
+- ``Aula 14:`` - Exercicio 02
+- ``Aula 15:`` - Exercicio 03
 
 > Lembrete: O título de cada aula contém um link direto para o respectivo vídeo no YouTube do Curso em Vídeo.
 
@@ -22,7 +22,7 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 - [Aula 11 - Condições I](#aula-11---condições-i)
 - [Aula 12 - Condições II](#aula-12---condições-ii)
-- [Aula 13 - Exercicio 01](#aula-13---exercicio-01)
+- [Aula 13 - Exercicio 01](#aula-13---exercício-01)
 - [Aula 14 - Exercicio 02 - Em breve](#aula-14---exercicio-02)
 - [Aula 15 - Exercicio 03 - Em breve](#aula-15---exercicio-03)
 
