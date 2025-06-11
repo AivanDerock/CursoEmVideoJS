@@ -22,7 +22,7 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 - [Aula 11 - Condições I](#aula-11---condições-i)
 - [Aula 12 - Condições II](#aula-12---condições-ii)
-- [Aula 13 - Exercicio 01 - Em breve](#aula-13---exercicio-01)
+- [Aula 13 - Exercicio 01](#aula-13---exercicio-01)
 - [Aula 14 - Exercicio 02 - Em breve](#aula-14---exercicio-02)
 - [Aula 15 - Exercicio 03 - Em breve](#aula-15---exercicio-03)
 
@@ -327,7 +327,92 @@ switch (diaSem) {
 
 ---
 
-## [Aula 13 - Exercicio 01]()
+## [Aula 13 - Exercício 01](https://youtu.be/b2K7eo5Jdj8?si=Vqv-Z5at9csJiWvZ)
+
+Nesta aula/exercício, criamos um **modelo base de site** para agilizar o desenvolvimento dos próximos projetos e exercícios do módulo.
+
+O modelo visual ficou assim:
+
+![image](./image/Modelo.png)
+
+Esse padrão será utilizado em todos os demais exercícios para manter a organização e facilitar a reutilização do layout.
+
+Utilizamos **HTML5**, **CSS3** e, futuramente, **JavaScript** para complementar as funcionalidades.
+
+O modelo está salvo no exercício [ex008](./Exercicios/ex008/).
+
+> **Dica:** Para inserir o símbolo de copyright (&copy;) no HTML, basta usar `&copy;`.
+
+---
+
+### Código do Modelo
+
+**HTML:**
+```html
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo dos Exercícios</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <header>
+    <h1>Título</h1>
+  </header>
+  <section>
+    <div></div>
+    <div></div>
+  </section>
+  <footer>
+    &copy; Ivan Rocha - 2025
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
+```
+
+**CSS:**
+```css
+body {
+  background: #181622;
+  font: normal 15pt arial, sans-serif;
+}
+
+header {
+  color: #ff35a8;
+  text-align: center;
+}
+
+section {
+  border-radius: 10px;
+  padding: 15px;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+  box-shadow: 0px 0px 50px 30px #13111B;
+  font: normal 12pt arial, sans-serif;
+}
+
+footer {
+  color: #FFD600;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 25px;
+}
+```
+
+---
+
+> **Observação:**  
+> Não houve JavaScript nesta primeira aula. O foco foi criar o modelo visual para ser reutilizado nos próximos exercícios.
+
+---
+
+### Link para Exercícios 1
+
+- [ex008](./Exercicios/ex008)
 
 ---
 
@@ -346,4 +431,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 10/06/25 por Ivan Rocha_
+> _Última atualização: 11/06/25 por Ivan Rocha_
