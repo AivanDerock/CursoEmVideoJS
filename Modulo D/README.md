@@ -505,4 +505,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 11/06/25 por Ivan Rocha_
+> _Última atualização: 12/06/25 por Ivan Rocha_
