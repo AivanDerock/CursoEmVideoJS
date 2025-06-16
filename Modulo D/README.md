@@ -23,8 +23,8 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 - [Aula 11 - Condições I](#aula-11---condições-i)
 - [Aula 12 - Condições II](#aula-12---condições-ii)
 - [Aula 13 - Exercicio 01](#aula-13---exercício-01)
-- [Aula 14 - Exercicio 02](#aula-14---exercicio-02)
-- [Aula 15 - Exercicio 03](#aula-15---exercicio-03)
+- [Aula 14 - Exercicio 02](#aula-14---exercício-02)
+- [Aula 15 - Exercicio 03](#aula-15---exercício-03)
 
 ---
 
