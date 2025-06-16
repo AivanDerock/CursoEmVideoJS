@@ -8,11 +8,11 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 Este README reúne minhas anotações pessoais do Módulo D do curso de JavaScript do ``Curso em Vídeo``.  
 Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação.
 
-- ``Aula 11:`` - Condições I
-- ``Aula 12:`` - Condições II
-- ``Aula 13:`` - Exercicio 01
-- ``Aula 14:`` - Exercicio 02
-- ``Aula 15:`` - Exercicio 03
+- ``Aula 11: Condições I:`` Introdução ao uso de estruturas condicionais (`if` e `else`) em JavaScript, permitindo que o código siga caminhos diferentes conforme situações específicas.
+- ``Aula 12: Condições II:`` Aprendizado sobre condições aninhadas (`else if`) e múltiplas (`switch`), ampliando as possibilidades de decisão no código.
+- ``Aula 13: Exercício 01:`` Criação de um modelo base de site com HTML e CSS para ser reutilizado nos próximos exercícios do módulo.
+- ``Aula 14: Exercício 02:`` Desenvolvimento de um relógio digital com saudação e imagem dinâmica conforme o horário, utilizando JavaScript para manipulação do DOM.
+- ``Aula 15: Exercício 03:`` Implementação de um verificador de idade, que identifica idade e gênero do usuário e exibe
 
 > Lembrete: O título de cada aula contém um link direto para o respectivo vídeo no YouTube do Curso em Vídeo.
 
@@ -24,7 +24,7 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 - [Aula 12 - Condições II](#aula-12---condições-ii)
 - [Aula 13 - Exercicio 01](#aula-13---exercício-01)
 - [Aula 14 - Exercicio 02](#aula-14---exercicio-02)
-- [Aula 15 - Exercicio 03 - Em breve](#aula-15---exercicio-03)
+- [Aula 15 - Exercicio 03](#aula-15---exercicio-03)
 
 ---
 
@@ -494,7 +494,97 @@ function atualizarHora() {
 
 ---
 
-## [Aula 15 - Exercicio 03]()
+## [Aula 15 - Exercício 03](https://youtu.be/f5es-PpaUI8?si=QX95m_YwZaEeZWMn)
+
+Nesta aula, demos continuidade aos exercícios práticos. No exercício anterior, criamos um relógio com hora e imagens dinâmicas. Agora, desenvolvemos um ``verificador de idade``, que identifica a idade e o gênero da pessoa, exibindo uma imagem correspondente.
+
+> Para imagens gratuitas e de boa qualidade, utilize bancos como o [Pexels](https://www.pexels.com/pt-br).
+
+---
+
+### Código JavaScript Final
+
+```javascript
+function verificar() {
+  const dataAtual = new Date().getFullYear()
+  const infoAno = Number(document.querySelector('#infoAno').value)
+  const infoSexo = document.querySelector('#infoSexo').value
+  const imagem = document.querySelector('#imagem')
+  const resultado = document.querySelector('#res')
+  const botao = document.querySelector('#botao')
+  const resetar = document.querySelector('#resetar')
+
+  if (infoAno > dataAtual || infoAno < 1900 || infoAno === 0) {
+    resultado.innerHTML = '[ERROR] Ano inválido!'
+    imagem.src = ''
+    imagem.classList.add('hidden')
+    return
+  }
+
+  const idade = dataAtual - infoAno
+
+  let sexo = ''
+  let imgURL = ''
+
+  switch (infoSexo) {
+    case '1':
+      sexo = 'homem'
+      imgURL =
+        'https://images.pexels.com/photos/715546/pexels-photo-715546.jpeg'
+      break
+    case '2':
+      sexo = 'mulher'
+      imgURL =
+        'https://images.pexels.com/photos/7443030/pexels-photo-7443030.jpeg'
+      break
+    case '3':
+      sexo = 'indefinido'
+      imgURL =
+        'https://images.pexels.com/photos/2058781/pexels-photo-2058781.jpeg'
+      break
+    default:
+      resultado.innerHTML = '[ERROR] Sexo não selecionado corretamente!'
+      imagem.src = ''
+      imagem.classList.add('hidden')
+      return
+  }
+
+  resultado.innerHTML = `Seu sexo é ${sexo} com ${idade} anos.`
+  imagem.src = imgURL
+  imagem.classList.remove('hidden')
+
+  botao.classList.add('hidden')
+  resetar.classList.remove('hidden')
+}
+
+function resetar() {
+  const botao = document.querySelector('#botao')
+  const resetar = document.querySelector('#resetar')
+  const resultado = document.querySelector('#res')
+  const imagem = document.querySelector('#imagem')
+  const ano = document.querySelector('#infoAno')
+  const sexo = document.querySelector('#infoSexo')
+
+  resultado.innerHTML = ''
+  imagem.src = ''
+  imagem.classList.add('hidden')
+  ano.value = ''
+  sexo.value = '0'
+
+  botao.classList.remove('hidden')
+  resetar.classList.add('hidden')
+}
+```
+
+---
+
+> Segui o modelo base do curso, mas personalizei alguns detalhes para deixar o projeto com a minha cara.
+
+---
+
+### Link para Exercício 3
+
+- [ex010](./Exercicios/ex010)
 
 ---
 
@@ -505,4 +595,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 12/06/25 por Ivan Rocha_
+> _Última atualização: 15/06/25 por Ivan Rocha_

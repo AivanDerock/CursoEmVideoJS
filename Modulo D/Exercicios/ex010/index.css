@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181622;
+  font: normal 15pt 'Arial', sans-serif;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 30px 0 10px;
+  text-align: center;
+}
+
+section {
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 700px;
+  width: 90%;
+  margin: 30px auto;
+  box-shadow: 0 0 50px 20px #13111b;
+  background: #1f1c2c;
+  font: normal 14pt Arial, sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+
+fieldset {
+  border: 2px dashed #ffd600;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+legend {
+  padding: 5px 15px;
+  background: #ffd600;
+  color: #181622;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+input[type='number'],
+select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #13111b;
+  color: #fff;
+  font-size: 14pt;
+  outline: none;
+  transition: background 0.3s;
+}
+
+input[type='number']:focus,
+select:focus {
+  background: #181622;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background: #ffd600;
+  color: #181622;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14pt;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.02);
+}
+
+#res {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 16pt;
+}
+
+#imagem {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+#foto {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  color: #ffd600;
+  font-family: 'Arial', sans-serif;
+  padding: 10px;
+  margin-top: auto;
+  background: #13111b;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
