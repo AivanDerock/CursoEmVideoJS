@@ -49,11 +49,11 @@ O **Curso de JavaScript do Curso em Vídeo** aborda desde os conceitos básicos 
 
 ### Módulo E
 
-- [Aula 16 - Em breve]()
-- [Aula 17 - Em breve]()
-- [Aula 18 - Exercicio 04 - Em breve]()
-- [Aula 19 - Exercicio 05 - Em breve]()
-- [Aula 20 - Exercicio 06 - Em breve]()
+- [Aula 16 - I Repetições](./Modulo%20E/README.md#aula-16---i-repetições)
+- [Aula 17 - II Repetições](./Modulo%20E/README.md#aula-17---ii-repetições)
+- [Aula 18 - Exercicio 04](./Modulo%20E/README.md#aula-18---exercicio-04)
+- [Aula 19 - Exercicio 05](./Modulo%20E/README.md#aula-19---exercicio-05)
+- [Aula 20 - Exercicio 06](./Modulo%20E/README.md#aula-20---exercicio-06)
 
 ---
 
