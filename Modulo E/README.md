@@ -148,8 +148,70 @@ Essas estruturas tornam seu código mais limpo, eficiente e fácil de manter!
 
 ---
 
-## [Aula 17 - II Repetições]()
+## [Aula 17 - II Repetições](https://youtu.be/eX-lkN_Zahc?si=DDwpMe4O-58noN-j)
 
+Nesta aula, aprendemos sobre a ``estrutura de repetição com variável de controle``, conhecida como `for`.  
+Essa estrutura realiza três etapas principais: ``inicialização``, ``teste lógico`` e ``incremento``.
+
+- ``Inicialização:`` Define o valor inicial da variável de controle.
+- ``Teste lógico:`` Verifica se a condição é verdadeira para continuar o laço.
+- ``Incremento:`` Atualiza a variável de controle a cada repetição.
+
+O fluxo é: inicializa → testa → executa o bloco → incrementa → testa novamente...  
+Quando o teste lógico for falso, o laço termina e o código segue normalmente.
+
+**Sintaxe:**
+```js
+for (inicialização; teste; incremento) {
+  // bloco de código
+}
+```
+
+> Dentro do `for`, é possível usar outras estruturas como `while`, `do...while`, `if`, `switch`, etc.
+
+---
+
+### Comparação com o `while`
+
+Exemplo usando `while`:
+
+```js
+var c = 1;
+while (c <= 10) {
+  // bloco de código
+  c++;
+}
+```
+
+O mesmo exemplo usando `for`:
+
+```js
+for (var c = 1; c <= 10; c++) {
+  // bloco de código
+}
+```
+
+Ambos executam o bloco 10 vezes, de 1 até 10.
+
+---
+
+### Exemplo prático
+
+```js
+for (var c = 1; c <= 10; c++) {
+  console.log(`Passo ${c}`);
+}
+```
+
+---
+
+Nesta aula também foi apresentado o ``Depurador`` do VS Code, uma ferramenta útil para acompanhar a execução do código passo a passo.
+
+---
+
+### Link para Exercício Aula 17
+
+- [ex002](./Exercicios/ex002)
 
 ---
 
@@ -172,4 +234,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 17/06/25 por Ivan Rocha_
+> _Última atualização: 18/06/25 por Ivan Rocha_
