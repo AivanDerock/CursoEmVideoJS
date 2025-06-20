@@ -215,7 +215,14 @@ Nesta aula também foi apresentado o ``Depurador`` do VS Code, uma ferramenta ú
 
 ---
 
-## [Aula 18 - Exercicio 04]()
+## [Aula 18 - Exercício 04](https://youtu.be/6tyHypeY4-8?si=_ng9LgHSMAb8U0qS)
+
+Esta aula foi dedicada à apresentação e introdução dos próximos exercícios.  
+O principal destaque foi a recomendação de reutilizar o **site modelo** criado anteriormente para agilizar o desenvolvimento dos novos projetos.
+
+Nenhum conceito novo relevante foi abordado, por isso não fiz anotações detalhadas.
+
+> Acesse o site modelo aqui: [Modelo](../Modelos/Modelos%20de%20Projetos/)
 
 ---
 
