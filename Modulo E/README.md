@@ -8,11 +8,15 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 Este README reúne minhas anotações pessoais do Módulo E do curso de JavaScript do ``Curso em Vídeo``.  
 Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação.
 
-- ``Aula 16:`` - I Repetições
-- ``Aula 17:`` - II Repetições
-- ``Aula 18:`` - Exercicio 04
-- ``Aula 19:`` - Exercicio 05
-- ``Aula 20:`` - Exercicio 06
+- ``Aula 16: I Repetições`` Introdução aos laços de repetição em JavaScript, com foco nas estruturas `while` e `do...while` para executar blocos de código várias vezes enquanto uma condição for verdadeira.
+
+- ``Aula 17: II Repetições`` Apresentação da estrutura `for`, que utiliza variável de controle, inicialização, teste lógico e incremento para criar repetições de forma mais compacta e organizada.
+
+- ``Aula 18: Exercício 04`` Aula introdutória sobre a reutilização do site modelo para os próximos exercícios, sem novos conceitos práticos.
+
+- ``Aula 19: Exercício 05`` Desenvolvimento de um contador de passos, incluindo o uso de emojis no JavaScript através de códigos Unicode.
+
+- ``Aula 20: Exercício 06`` Projeto de tabuada, destacando o uso de métodos como `appendChild()`, `createElement()` e `.text` para manipulação dinâmica de elementos no DOM.
 
 > Lembrete: O título de cada aula contém um link direto para o respectivo vídeo no YouTube do Curso em Vídeo.
 
