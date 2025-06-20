@@ -241,7 +241,21 @@ Um ponto novo abordado foi o uso de ``emojis`` no JS, que podem ser inseridos ut
 
 ---
 
-## [Aula 20 - Exercicio 06]()
+## [Aula 20 - Exercício 06](https://youtu.be/mfHAQ-4Rspw?si=gz3QAbUYWFpLq8uC)
+
+Nesta aula, desenvolvemos um projeto de ``tabuada``, revisando conceitos das aulas anteriores e aprendendo alguns pontos importantes:
+
+- ``appendChild()``: adiciona um novo elemento como filho de outro elemento no DOM.
+- ``createElement('option')``: cria dinamicamente um elemento `<option>` para listas e selects.
+- ``.text``: define o texto exibido dentro do elemento criado.
+
+Esses métodos são fundamentais para manipulação dinâmica de elementos na página usando JavaScript.
+
+---
+
+### Link para Exercício Aula 20
+
+- [ex004](./Exercicios/ex004)
 
 ---
 
@@ -252,4 +266,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 18/06/25 por Ivan Rocha_
+> _Última atualização: 20/06/25 por Ivan Rocha_
