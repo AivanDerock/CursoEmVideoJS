@@ -226,7 +226,18 @@ Nenhum conceito novo relevante foi abordado, por isso não fiz anotações detal
 
 ---
 
-## [Aula 19 - Exercicio 05]()
+## [Aula 19 - Exercicio 05](https://youtu.be/oMNbc_LFz8w?si=7ltSYsl7vOodJHPF)
+
+## [Aula 19 - Exercício 05](https://youtu.be/oMNbc_LFz8w?si=7ltSYsl7vOodJHPF)
+
+Neste exercício, desenvolvemos um ``contador de passos`` em JavaScript.  
+Um ponto novo abordado foi o uso de ``emojis`` no JS, que podem ser inseridos utilizando códigos Unicode, como `\u{1F449}`.
+
+---
+
+### Link para Exercício Aula 19
+
+- [ex003](./Exercicios/ex003)
 
 ---
 
