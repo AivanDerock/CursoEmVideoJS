@@ -12,9 +12,9 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 - ``Aula 22: Funções``
 
-- ``Aula 23: Exercicio 08``
+- ``Aula 23: Exercicio 07``
 
-- ``Aula 24: Exercicio 09``
+- ``Aula 24: Exercicio 08``
 
 - ``Aula 25: Finalização``
 
@@ -26,8 +26,8 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 - [Aula 21 - Variáveis Compostas](#aula-21---variáveis-compostas)
 - [Aula 22 - Funções](#aula-22---funções)
-- [Aula 23 - Exercicio 08](#aula-23---exercicio-08)
-- [Aula 24 - Exercicio 09](#aula-24---exercicio-09)
+- [Aula 23 - Exercicio 07](#aula-23---exercicio-07)
+- [Aula 24 - Exercicio 08](#aula-24---exercicio-08)
 - [Aula 25 - Finalização](#aula-25---finalização)
 
 ---
@@ -40,11 +40,11 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 ---
 
-## [Aula 23 - Exercicio 08]()
+## [Aula 23 - Exercicio 07]()
 
 ---
 
-## [Aula 24 - Exercicio 09]()
+## [Aula 24 - Exercicio 08]()
 
 ---
 
