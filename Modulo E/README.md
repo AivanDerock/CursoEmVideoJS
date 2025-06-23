@@ -230,8 +230,6 @@ Nenhum conceito novo relevante foi abordado, por isso não fiz anotações detal
 
 ---
 
-## [Aula 19 - Exercicio 05](https://youtu.be/oMNbc_LFz8w?si=7ltSYsl7vOodJHPF)
-
 ## [Aula 19 - Exercício 05](https://youtu.be/oMNbc_LFz8w?si=7ltSYsl7vOodJHPF)
 
 Neste exercício, desenvolvemos um ``contador de passos`` em JavaScript.  
