@@ -171,7 +171,148 @@ console.log(`O valor 4 está na posição ${fal}`)
 
 ---
 
-## [Aula 22 - Funções]()
+## [Aula 22 - Funções](https://youtu.be/mc3TKp2XzhI?si=OBwW5JRQVpebHaak)
+
+Nesta aula, aprofundamos o estudo de ``funções`` em JavaScript, focando no uso de ``parâmetros`` e ``retornos`` para tornar o código mais flexível e reutilizável.
+
+### O que é uma função?
+
+- Uma função é um bloco de código que executa uma ação assim que é chamada, podendo receber parâmetros e retornar um resultado.
+- Nem toda função precisa de parâmetros ou retorno, mas eles aumentam as possibilidades de uso.
+
+---
+
+### Estrutura de uma função
+
+**Função sem parâmetro e sem retorno:**
+
+```js
+function acao() {
+  // bloco de código
+}
+```
+
+**Função com parâmetro e retorno:**
+
+```js
+function acao(param) {
+  // bloco de código
+  return res;
+}
+
+acao(5); // chamada da função
+```
+
+- **Chamada:** `acao(5)`
+- **Parâmetro:** `param` (recebe o valor 5)
+- **Ação:** bloco de código executado
+- **Retorno:** valor devolvido pelo `return`
+
+---
+
+### Exemplos práticos
+
+**Função para identificar par ou ímpar:**
+
+```js
+function parimpar(n) {
+  if (n % 2 == 0) {
+    return "Par";
+  } else {
+    return "Ímpar";
+  }
+}
+
+let res = parimpar(11); // res = "Ímpar"
+```
+
+**Função com parâmetros pré-definidos:**
+
+```js
+function soma(a = 0, b = 0) {
+  return a + b;
+}
+
+console.log(soma(2, 3)); // 5
+console.log(soma(2));    // 2 (b assume 0)
+```
+
+> Parâmetros pré-definidos evitam erros caso algum valor não seja passado na chamada.
+
+**Função anônima atribuída a uma variável:**
+
+```js
+let v = function(x) {
+  return x * 2;
+}
+
+console.log(v(5)); // 10
+```
+
+---
+
+### Exemplos da aula
+
+```js
+function parimpar(n) {
+  if (n % 2 == 0) {
+    return "Par";
+  } else {
+    return "Ímpar";
+  }
+}
+
+let numero = parimpar(4);
+console.log(numero);
+console.log(parimpar(5));
+
+console.log("--------------------------------------");
+
+function soma(a = 0, b = 0) {
+  return a + b;
+}
+
+console.log(soma(2, 3));
+console.log(soma(2));
+
+console.log("--------------------------------------");
+
+let v = function(x) {
+  return x * 2;
+}
+
+console.log(v(5));
+
+console.log("--------------------------------------");
+
+function fatorial(f) {
+  let fat = 1;
+  for (let c = f; c > 1; c--) {
+    fat *= c;
+  }
+  return fat;
+}
+
+console.log(fatorial(5));
+
+console.log("--------------------------------------");
+
+function fatorial2(f2) {
+  if (f2 == 1) {
+    return 1;
+  } else {
+    return f2 * fatorial2(f2 - 1);
+  }
+}
+
+console.log(fatorial2(5));
+```
+
+---
+
+### Link para Exercício Aula 22
+
+- [ex002](./Exercicios/ex002)
 
 ---
 
@@ -194,4 +335,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 23/06/25 por Ivan Rocha_
+> _Última atualização: 24/06/25 por Ivan Rocha_
