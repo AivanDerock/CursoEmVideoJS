@@ -59,8 +59,8 @@ O **Curso de JavaScript do Curso em Vídeo** aborda desde os conceitos básicos 
 
 - [Aula 21 - Variáveis Compostas](./Modulo%20F/README.md#aula-21---variáveis-compostas)
 - [Aula 22 - Funções](./Modulo%20F/README.md#aula-22---funções)
-- [Aula 23 - Exercicio 07](./Modulo%20F/README.md#aula-23---exercicio-07)
-- [Aula 24 - Exercicio 08](./Modulo%20F/README.md#aula-24---exercicio-08)
+- [Aula 23 - Exercicio 07](./Modulo%20F/README.md#aula-23---exercicio-07aula-24---exercicio-08)
+- [Aula 24 - Exercicio 08](./Modulo%20F/README.md#aula-23---exercicio-07aula-24---exercicio-08)
 - [Aula 25 - Finalização](./Modulo%20F/README.md#aula-25---finalização)
 
 ---

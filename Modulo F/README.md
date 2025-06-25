@@ -26,8 +26,8 @@ Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exem
 
 - [Aula 21 - Variáveis Compostas](#aula-21---variáveis-compostas)
 - [Aula 22 - Funções](#aula-22---funções)
-- [Aula 23 - Exercicio 07](#aula-23---exercicio-07)
-- [Aula 24 - Exercicio 08](#aula-24---exercicio-08)
+- [Aula 23 - Exercicio 07](#aula-23---exercicio-07aula-24---exercicio-08)
+- [Aula 24 - Exercicio 08](#aula-23---exercicio-07aula-24---exercicio-08)
 - [Aula 25 - Finalização](#aula-25---finalização)
 
 ---
@@ -316,11 +316,17 @@ console.log(fatorial2(5));
 
 ---
 
-## [Aula 23 - Exercicio 07]()
+## [Aula 23 - Exercício 07](https://youtu.be/vEOEZ03ZyiE?si=y-Z-KNjfvAUZ0f6R) / [Aula 24 - Exercício 08](https://youtu.be/slLoLLCd-k0?si=sjp4U12nOZTXQfNm)
+
+Nessas aulas, desenvolvemos um ``contador de números`` com funcionalidades como soma, média e outros cálculos.  
+O foco foi totalmente prático, aplicando conceitos já vistos em aulas anteriores.  
+Não foram apresentados novos comandos ou conceitos teóricos relevantes para anotações.
 
 ---
 
-## [Aula 24 - Exercicio 08]()
+### Link para Exercícios
+
+- [ex003](./Exercicios/ex003)
 
 ---
 
@@ -335,4 +341,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 24/06/25 por Ivan Rocha_
+> _Última atualização: 25/06/25 por Ivan Rocha_
