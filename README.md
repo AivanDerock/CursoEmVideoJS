@@ -4,7 +4,7 @@ Este repositório contém minhas anotações pessoais sobre JavaScript, voltadas
 
 🔗 [Acesse o Curso em Vídeo](https://www.cursoemvideo.com/)
 
-# 🗓️ Status
+## 🗓️ Status
 
 - Curso finalizado em 26/06/2025.
 
