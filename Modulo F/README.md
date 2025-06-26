@@ -330,7 +330,74 @@ Não foram apresentados novos comandos ou conceitos teóricos relevantes para an
 
 ---
 
-## [Aula 25 - Finalização]()
+## [Aula 25 - Finalização](https://youtu.be/roP93FA-NgU?si=6jImmmTge8m0AUo-)
+
+Depois de quase um mês e meio, chegamos ao fim do curso básico de JavaScript do **Curso em Vídeo**!
+
+Apesar do encerramento do módulo, ainda há muito conteúdo para estudar e aprofundar.  
+Aqui vai um resumo do que foi visto ao longo do curso:
+
+- Fundamentos
+- Variáveis e tipos de dados
+- Operadores
+- Condições
+- Repetições
+- Arrays
+- Funções
+- DOM
+- Exercícios práticos
+
+---
+
+### Dicas para os próximos passos
+
+O aprendizado não para aqui! Alguns tópicos importantes para continuar evoluindo:
+
+- Funções avançadas
+- Objetos
+- Modularização
+- RegEx (Expressões Regulares)
+- JSON
+- AJAX
+- Node.js
+- Frameworks
+
+---
+
+### Fundamentos de Objetos em JavaScript
+
+No final da aula, foi apresentado o conceito de ``objetos`` em JavaScript.
+
+- Arrays em JS podem armazenar diferentes tipos de dados (string, number, boolean, etc).
+- Porém, arrays são limitados quando precisamos de estruturas mais complexas.
+- Objetos permitem organizar dados em pares de chave e valor, além de métodos (funções internas).
+
+**Sintaxe básica:**
+
+```js
+let amigo = {
+  nome: 'José',
+  idade: 25,
+  peso: 70.5,
+  sexo: "M",
+  engordar(p) {
+    console.log('engordou');
+    this.peso += p;
+  }
+}
+
+amigo.engordar(2);
+console.log(`${amigo.nome} pesa ${amigo.peso}kg`);
+```
+
+- Objetos usam `{}` e permitem acessar valores por nome (ex: `amigo.nome`).
+- Métodos são funções dentro do objeto (ex: `engordar`).
+
+---
+
+### Linkpara Exercício
+
+- [ex004](./Exercicios/ex004)
 
 ---
 
@@ -341,4 +408,4 @@ Organizei aqui os conceitos, exemplos e dicas que vão me ajudar a revisar e fix
 
 Bora continuar estudando e evoluindo! 🚀
 
-> _Última atualização: 25/06/25 por Ivan Rocha_
+> _Última atualização: 26/06/25 por Ivan Rocha_
