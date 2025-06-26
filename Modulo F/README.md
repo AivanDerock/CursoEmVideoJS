@@ -8,15 +8,15 @@ Aqui você encontrará resumos, exemplos e explicações das principais aulas.
 Este README reúne minhas anotações pessoais do Módulo F do curso de JavaScript do ``Curso em Vídeo``.  
 Organizei o conteúdo por aulas, trazendo resumos dos principais conceitos, exemplos práticos, dicas e observações que considero úteis para revisão e fixação.
 
-- ``Aula 21: Variáveis Compostas``
+- ``Aula 21: Variáveis Compostas`` Introdução aos arrays em JavaScript, mostrando como armazenar e manipular vários valores em uma única estrutura.
 
-- ``Aula 22: Funções``
+- ``Aula 22: Funções`` Estudo aprofundado de funções, com foco em parâmetros, retornos e exemplos práticos para tornar o código mais reutilizável.
 
-- ``Aula 23: Exercicio 07``
+- ``Aula 23: Exercício 07`` Desenvolvimento de um contador de números com operações como soma e média, aplicando conceitos já vistos.
 
-- ``Aula 24: Exercicio 08``
+- ``Aula 24: Exercício 08`` Continuação do projeto prático, reforçando o uso de arrays, funções e manipulação de dados.
 
-- ``Aula 25: Finalização``
+- ``Aula 25: Finalização`` Encerramento do módulo, revisão dos principais tópicos e dicas para os próximos passos nos estudos de JavaScript.
 
 > Lembrete: O título de cada aula contém um link direto para o respectivo vídeo no YouTube do Curso em Vídeo.
 
